@@ -41,3 +41,15 @@ void bubbleSortArray() {
 		pass = pass + 1;
 	} while (pass <= n - 1);
 }
+
+void display() {
+	cout << endl;
+	cout << "============================" << endl;
+	cout << "Elemen array yang telah tersusun" << endl;
+	cout << "============================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+	cout << "jumlah pass = " << n - 1 << endl;
+	cout << endl;
+}
